@@ -5,46 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Портфолио</title>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <header>
         <!-- Верхняя линия Главная-->
-        <a href="./index.html">WebStudio</a>
+        <a href="./index.html">
+            <span class="logo-first">Web</span>
+            <span class="logo-black">Studio</span>
+        </a>
         <nav>
             <ul>
-                <li><a href="./index.html">Студия</a></li>
-                <li><a href="/">Портфолио</a></li>
-                <li><a href="#">Контакты</a></li>
+                <li><a class="menu-link" href="./index.html">Студия</a></li>
+                <li><a class="menu-link" href="/">Портфолио</a></li>
+                <li><a class="menu-link" href="#">Контакты</a></li>
             </ul>
         </nav>
                 <ul>
                     <li>
-                        <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+                        <a class="adr-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                     </li>
                     <li>
-                        <a href="tel:+380961111111">+38 096 111 11 11</a>
+                        <a class="adr-link" href="tel:+380961111111">+38 096 111 11 11</a>
                     </li>
                 </ul>
     </header>
     <main>
         <!-- Список папок -->
         <div>
-                <button type="button" style="width: 75px; height: 40px;">
+                <button 
+                    class="button-portfolio" type="button">
                     Все
                 </button>
-                <button type="button" style="width: 130px; height: 40px;">
+                <button 
+                    class="button-portfolio" type="button">
                     Веб-сайты
                 </button>
                 <button 
-                    type="button" style="width: 145px; height: 40px;">
+                    class="button-portfolio" type="button">
                     Приложения
                 </button>
                 <button 
-                    type="button" style="width: 105px; height: 40px;">
+                    class="button-portfolio" type="button">
                     Дизайн
                 </button>
                 <button 
-                    type="button" style="width: 130px; height: 40px;">
+                    class="button-portfolio" type="button">
                     Маркетинг
                 </button>
             </div>
@@ -53,65 +59,68 @@
             <ul>
                 <li>
                     <img src="./images/technokryak.jpg" alt="Технокряк" width="370" height="295"/>
-                    <h3>Технокряк</h3>
-                    <p>Веб-сайт</p>
+                    <h3 class="portfolio-title">Технокряк</h3>
+                    <p class="portfolio-text">Веб-сайт</p>
                 </li>
                 <li>
                     <img src="./images/neworlean.jpg" alt="Постер New Orlean vs Golden Star" width="370" height="295" />
-                    <h3>Постер New Orlean vs Golden Star</h3>
-                    <p>Дизайн</p>
+                    <h3 class="portfolio-title">Постер New Orlean vs Golden Star</h3>
+                    <p class="portfolio-text">Дизайн</p>
                 </li>
                 <li>
                     <img src="./images/seafood.jpg" alt="Ресторан Seafood" width="370" height="295" />
-                    <h3>Ресторан Seafood</h3>
-                    <p>Приложение</p>
+                    <h3 class="portfolio-title">Ресторан Seafood</h3>
+                    <p class="portfolio-text">Приложение</p>
                 </li>
                 <li>
                     <img src="./images/prime.jpg" alt="Проект Prime" width="370" height="295" />
-                    <h3>Проект Prime</h3>
-                    <p>Маркетинг/p>
+                    <h3 class="portfolio-title">Проект Prime</h3>
+                    <p class="portfolio-text">Маркетинг</p>
                 </li>
                 <li>
                     <img src="./images/boxes.jpg" alt="Проект Boxes" width="370" height="295" />
-                    <h3>Проект Boxes</h3>
-                    <p>Приложение</p>
+                    <h3 class="portfolio-title">Проект Boxes</h3>
+                    <p class="portfolio-text">Приложение</p>
                 </li>
                 <li>
                     <img src="./images/borders.jpg" alt="Inspiration has no Borders" width="370" height="295"/>
-                    <h3>Inspiration has no Borders</h3>
-                    <p>Веб-сайт</p>
+                    <h3 class="portfolio-title">Inspiration has no Borders</h3>
+                    <p class="portfolio-text">Веб-сайт</p>
                 </li>
                 <li>
                     <img src="./images/Limited.jpg" alt="Издание Limited Edition" width="370" height="295" />
-                    <h3>Издание Limited Edition</h3>
-                    <p>Дизайн</p>
+                    <h3 class="portfolio-title">Издание Limited Edition</h3>
+                    <p class="portfolio-text">Дизайн</p>
                 </li>
                 <li>
                     <img src="./images/lab.jpg" alt="Проект LAB" width="370" height="295" />
-                    <h3>Проект LAB</h3>
-                    <p>Маркетинг</p>
+                    <h3 class="portfolio-title">Проект LAB</h3>
+                    <p class="portfolio-text">Маркетинг</p>
                 </li>
                 <li>
                     <img src="./images/business.jpg" alt="Growing Business" width="370" height="295" />
-                    <h3>Growing Business</h3>
-                    <p>Приложение</p>
+                    <h3 class="portfolio-title">Growing Business</h3>
+                    <p class="portfolio-text">Приложение</p>
                 </li>
             </ul>
         </section>
-     </main>
-    <footer>
+    </main>
+    <footer class="footer">
         <!-- Нижняя линия -->
-        <a href="/">WebStudio</a>
+        <a href="./index.html">
+            <span class="logo-first">Web</span>
+            <span class="logo-white">Studio</span>
+        </a>
         <address>
             <ul>
                 <li>
-                    <a href="">г. Киев, пр-т Леси Украинки, 26</a>
+                    <a class="address-text" href="">г. Киев, пр-т Леси Украинки, 26</a>
                 </li>
                 <li>
-                    <a href="mailto:info@example.com">info@example.com</a>
+                    <a class="address-link" href="mailto:info@example.com">info@example.com</a>
                 </li>
                 <li>
-                    <a href="tel:+380991111111">+38 099 111 11 11</a>
+                    <a class="address-link" href="tel:+380991111111">+38 099 111 11 11</a>
                 </li>
             </ul>
         </address>

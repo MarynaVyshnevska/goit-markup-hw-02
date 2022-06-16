@@ -1,0 +1,75 @@
+:root {
+    --color-accent1: #212121;
+    --color-accent2: #757575;
+    --color-link: #2196F3;
+}
+
+body {
+    color: var(--color-accent1);
+}
+.menu-link,
+.logo-black {
+    color: var(--color-accent1);
+}
+.logo-white {
+    color: #fff;
+}
+.adr-link
+{
+    color: var(--color-accent2);
+}
+.menu-link:hover,
+.adr-link:hover {
+    color: var(--color-link);
+}
+.logo-first {
+    color: var(--color-link);
+}
+.button-header {
+    padding: 10px 30px;
+    color: #fff;
+    background-color: var(--color-link);
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.button-header:hover {
+    box-shadow: 0px 4px 4px var(--color-link);
+}
+.about-title,
+.big-title, 
+.team-title {
+    color: var(--color-accent1);
+}
+.about-text, 
+.team-text {
+    color: var(--color-accent2);
+}
+/* потом убрать заливку? */
+.footer {
+    background-color: #2F303A;
+}
+.address-text {
+    color: #fff;
+}
+.address-link {
+    color: rgba(255, 255, 255, 0.6);
+}
+/* Portfolio unic*/
+.button-portfolio {
+    padding: 6px 22px;
+    color: var(--color-accent1);
+    background-color: #F5F4FA;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+.button-portfolio:hover {
+    color: #fff;
+    background-color: var(--color-link);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.portfolio-title {
+    color: var(--color-accent1);
+}
+.portfolio-text {
+    color: var(--color-accent2);
+}
