@@ -18,32 +18,32 @@ body {
     font-family: var(--font-family);
     font-weight: 400;
     font-style: normal;
+       
 }
 button {
     cursor: pointer;
 }   
-/* logo */
+a {
+    text-decoration: none;
+}
 .logo-black,
 .logo-white,
 .logo-first {
     font-family: var(--font-second);
     font-weight: 700;
     font-size: 26px;
-    line-height: 1.175;
-    text-decoration: none;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 
-/* .logo-black:hover,
-.logo-white:hover,
-.logo-first:hover  */
-.logo {
-    text-decoration: underline;
-}
-
-.menu-link,
 .logo-black {
     color: var(--color-accent1);
+}
+
+.menu-link {
+    color: var(--color-accent1);
     text-decoration: none;
+    letter-spacing: 0.02em;
 }
 .logo-white {
     color: var(--color-accent0);
@@ -54,12 +54,17 @@ button {
 header {
     font-weight: 500;
     font-size: 14px;
-    line-height: 1.175;
+    line-height: 1.14;
 }
+ul {
+    list-style: none;
+} 
+
 .adr-link
 {
     color: var(--color-accent2);
     text-decoration: none;
+    letter-spacing: 0.02em;
 }
 .menu-link:hover,
 .adr-link:hover,
@@ -71,10 +76,12 @@ header {
 .hero {
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.3636;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
     color: var(--color-accent0);
     text-align: center;
     text-transform: uppercase;
+
 }
 .button-header {
     padding: 10px 30px;
@@ -84,7 +91,8 @@ header {
     border-radius: 4px;
     font-weight: 700;
     font-size: 16px;
-    line-height: 1.875;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
 }
 .button-header:hover {
     box-shadow: 0px 4px 4px var(--color-link);
@@ -97,18 +105,22 @@ header {
 .about-title {
     font-weight: 700;
     font-size: 14px;
-    line-height: 1.172;
+    line-height: 1.14;
     text-transform: uppercase;
+    letter-spacing: 0.03em;
+    
 }
 .big-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.172;
+    line-height: 1.17;
     text-align: center;
+    letter-spacing: 0.03em;
 }
 .about-text {
     font-size: 14px;
-    line-height: 1.715;
+    line-height: 1.72;
+    letter-spacing: 0.03em;
 }
 .about-text, 
 .team-text,
@@ -118,17 +130,20 @@ header {
 .team-title {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.1875;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 .team-text {
     font-size: 16px;
-    line-height: 1.1875;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 
 .address-text,
 .address-link {
     font-size: 14px;
-    line-height: 1.715;
+    line-height: 1.72;
+    letter-spacing: 0.03em;
     text-decoration: none;
     font-style: normal;
     /* иначе курсив не выключить */
@@ -146,13 +161,11 @@ header {
 }
 /* Portfolio unic*/
 .button-portfolio {
-    /* знаю, что указывать здеь шрифт нельзя, 
-    но иначе это единственно место в работе, 
-    где он слетает. Помогите*/
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.625;
+    line-height: 1.63;
+    letter-spacing: 0.03em;
     padding: 6px 22px;
     color: var(--color-accent1);
     background-color: var(--color-back-button);
@@ -169,8 +182,10 @@ header {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
+    letter-spacing: 0.06em;
 }
 .portfolio-text {
     font-size: 16px;
-    line-height: 1.875
+    line-height: 1.88;
+    letter-spacing: 0.03em;
 }
